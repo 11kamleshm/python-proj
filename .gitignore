@@ -1,0 +1,14 @@
+# ignore virtual environment
+kamlesh/
+
+# ignore pycache
+*.py[cod]
+
+.requirements.txt
+
+**migrations/*.py
+!**migrations/__init__.py
+
+db.sqlite.py
+
+.vscode/
